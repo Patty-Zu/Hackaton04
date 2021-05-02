@@ -109,12 +109,23 @@ body {
     margin:auto;
 }
 
+.a4 button{
+  background: #3d2f87;
+  color: whitesmoke;
+  border-radius: 15px;
+}
+
 .a5{
     background: whitesmoke;
     width: 800px;
     padding:16px;
     border-radius:10px;
     margin:auto;
+   
+}
+.a5 div{
+  color: purple;
+  display: inline-block;
 }
 
 .a5 article{
@@ -126,7 +137,7 @@ body {
     font-size: 12px;
     text-align: center;
     margin: 0 auto;
-    border: black;
+    
 }
 
 .a6{
@@ -155,18 +166,40 @@ body {
     border-color: purple;
 }
 
+.a6 button:hover{
+    background: purple;
+    color: whitesmoke;
+}
+
 .a7{
     background: whitesmoke;
     width: 800px;
+    height: 300px;
     padding:16px;
     border-radius:10px;
     margin:auto;
 }
 
-.a8{
-    background: whitesmoke;
-    width: 800px;
-    padding:16px;
-    border-radius:10px;
-    margin:auto;
+.hijo7{
+    width: 600px;
+    height: 200px;
+    background: #3d2f87 ;
+    background: linear-gradient(to bottom, #3d2f87, rgb(137, 14, 154));
+    position: absolute;
+    color: white;
+    margin:0 auto;
+    border-radius: 15px;
+    text-align: center;
+    padding: 25px;
 }
+.hijo7 p{
+  font-weight: 10;
+}
+
+
+.a7 input{
+  background: whitesmoke;
+  color: purple;
+  border-radius: 15px;
+}
+
